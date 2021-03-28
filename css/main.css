@@ -77,6 +77,15 @@ ul {
   height: 65px;
 }
 
+.text-container {
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  padding-top: 5%;
+  position: relative;
+  z-index: 1;
+}
+
 .author {
   font-size: 15px;
 }
@@ -93,10 +102,74 @@ ul {
 
 footer {
   font-size: 10px;
+  clear: both;
+  padding-top: 25px;
 }
+
+
 
 @media all and (min-width: 1200px) {
   /** DESKTOP STYLES HERE **/
+
+  /** BASE STYLES **/
+  body {
+    float: right;
+    position: relative;
+  }
+
+  .img-stack, .quote-container {
+    float: right;
+    width: 45%; 
+    display: inline-block;
+  }
+
+  /** IMAGE STYLES **/
+  .img-stack {
+    padding: 4%;
+  }
+
+  .author-img {
+  }
+
+  .toggle-container {
+    margin-left: 21%;
+    height: 50px;
+    width: 110px;
+    border-radius: 35px;
+  }
+  .toggle-container img {
+    height: 20px;
+    margin-top: 15px;
+  }
+  .toggle-container #previous {
+    margin-right: 17px;
+  }
+  .toggle-container #next {
+    margin-left: 17px; 
+  }
+
+  /** QUOTE STYLES **/
+  .quote-container {
+    margin: 0%;
+    padding-top: 10%;
+  }
+
+  .quote-img {
+    height: 90px;
+    margin-left: -30%;
+  }
+  
+  .text-container {
+    text-align: left;
+    font-size: 32px;
+    width: 100%;
+    margin-left: 20%;
+  }
+
+  .author li {
+    display: inline;
+  }
+
 
 
 }
