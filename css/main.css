@@ -23,7 +23,7 @@ ul {
 }
 
 /** SLIDER STYLES **/
-#testimonial-two {
+.hide {
   display: none;
 }
 
@@ -112,7 +112,7 @@ ul {
 footer {
   font-size: 10px;
   clear: both;
-  padding-top: 25px;
+  padding-top: 100px;
 }
 
 
@@ -124,6 +124,8 @@ footer {
   body {
     float: right;
     position: relative;
+    background-position: left bottom;
+    background-size: 50%;
   }
 
   .img-stack, .quote-container {
