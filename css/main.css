@@ -107,8 +107,7 @@ ul {
   font-weight: 300;
 }
 
-
-
+/** FOOTER STYLES **/ 
 footer {
   font-size: 10px;
   clear: both;
@@ -137,9 +136,6 @@ footer {
   /** IMAGE STYLES **/
   .img-stack {
     padding: 4%;
-  }
-
-  .author-img {
   }
 
   .toggle-container {
