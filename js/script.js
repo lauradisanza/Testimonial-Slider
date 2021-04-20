@@ -34,5 +34,4 @@ prev.addEventListener("click", prevSlide);
 
 
 
-
-/* 33 minutes https://www.youtube.com/watch?v=fZlPJxq0kbk */
+/* Add key function from https://cheewebdevelopment.com/boilerplate-vanilla-javascript-content-slider/ */

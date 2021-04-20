@@ -21,6 +21,8 @@ html {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+/* SLIDE STYLES */
 .slider {
   display: block;
   height: 100%;
@@ -79,6 +81,8 @@ html {
   font-weight: 500;
   display: block;
 }
+
+/* BUTTON STYLES */
 .prev, 
 .next {
   display: inline-block;
@@ -148,8 +152,4 @@ html {
     transform: translate(0);
     left: calc(100% - 400px);
   }
-}
-
-.slide-2 {
-  display: none;
 }
